@@ -1,0 +1,278 @@
+@media (max-width:2500px) {
+    .container {
+        max-width: 1270px;
+        
+    }
+}
+@media (max-width:1400px) {
+    .container {
+        padding: 0 20px;
+        box-sizing: border-box;
+        ;
+        
+    }
+}
+@media (max-width:1150px) {
+    
+  
+    .header-logo span {
+        font-size: 22px;
+        
+    }
+    .primary-menu ul li a {
+        
+        padding: 0px 16px;
+        font-size: 18px;
+      
+    }
+    .header-button {
+        width: 13%;
+     
+    }
+    .header-menu{
+        width: 57%;
+    }
+    .buy {
+     
+        padding: 6px 15px;
+        
+    }
+    .video-right h2 {
+        font-size: 33px;
+    }
+    .header {
+       
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    .banner{
+        margin-top: 0;
+    }
+
+}
+
+/* default */
+
+.primary-menu span{ 
+    display: none;
+}
+.chek{
+    display: none;
+}
+
+
+
+
+@media (max-width:992px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-logo img {
+        width: 60px;
+        float: inherit;
+    }
+   
+    .header-button {
+        width: 200px;
+        position: absolute;
+        top: 75px;
+right: 29px;
+    }
+    .primary-menu span {
+        color: #6278df;
+        font-size: 36px;
+        cursor: pointer;
+        display: block;
+    }
+    .video-right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .video-left {
+        width: 100%;
+    }
+    .pricing-header h2 {
+        
+        font-size: 23px;
+    }
+    .pi-content ul li {
+        margin: 7px 0;
+        font-size: 17px;
+    }
+    .pi-header h1 {
+       
+        font-size: 49px;
+    }
+    .header-logo span {
+        position: relative;
+        top: -23px;
+    }
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+    .chek{
+        display: block;
+    }
+    .primary-menu .chek:checked~ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        width: 30%;
+
+    }
+    .primary-menu .chek:checked~.mobile-menu-icon{
+      color: black;
+
+    }
+    .primary-menu ul li {
+        
+        display: block;
+    }
+    .primary-menu ul li a {
+       
+        font-size: 16px;
+        line-height: 23px;
+       
+        padding: 0px 6px;
+         
+        
+    }
+    .primary-menu ul li ul {
+       
+        left: 156px;
+        top: -64px;
+       z-index:999;
+       width: 141px;
+    }
+    .primary-menu ul li .second {
+        width: 189px;
+        left: 149px;
+        top: -84px;
+        z-index: 999;
+        width: 180px;
+        
+    }
+   
+ 
+    .primary-menu ul li ul li {
+      
+        background: gray;
+    }
+    .chek {
+        
+        height: 50px;
+        width: 50px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .primary-menu span {
+       
+        position: absolute;
+        top: 91px;
+        left: 27px;
+        pointer-events: none;
+    }
+
+}
+@media (max-width:768px) {
+    .banner-content h2 {
+        font-size: 28px;
+      
+    }
+    .default-button {
+       
+        padding: 6px 19px;
+       
+    }
+   
+   
+    .banner {
+      
+        background-size: cover;
+        padding: 45px 0px;
+        
+        
+    }
+    .pricing-item {
+        width: 100%;
+        margin-right: 0;
+      
+    }
+    .n-tittle h2 {
+       
+        font-size: 29px;
+        font-weight: 500;
+       
+    }
+    .t-img {
+        width: 154px;
+        
+       
+    }
+    .t-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 33px;
+    }
+    .map-header {
+        width: 100%;
+    }
+    .form-header {
+        width: 100%;
+        margin-top: 53px;
+    }
+    .primary-menu .chek:checked~ul{
+       
+        width: 40%;
+
+    }
+
+}
+.t-content {
+   
+    box-shadow: 1px 1px 18px -2px rgb(181, 178, 212);}
+    
+@media (max-width:550px) {
+    .banner-content h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+    }
+    .banner-content h2 {
+        font-size: 24px;
+    }
+    .default-button {
+       
+        margin: 12px 0px;
+      
+        display: block;
+        font-size: 15px;
+    }
+    .banner {
+        background-size: cover;
+        padding: 12px 0px;
+    }
+    
+    .default-input {
+        width: 100%;
+        margin-bottom: 25px;
+        
+    }
+    .contact-header .w50 {
+        width: 45%;
+    }
+    .primary-menu .chek:checked~ul{
+       
+        width: 100%;
+
+    }
+
+}
